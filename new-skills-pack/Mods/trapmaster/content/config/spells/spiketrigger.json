@@ -1,0 +1,114 @@
+{
+	"spiketrigger" : {
+		"targetType" : "CREATURE",
+		"type" : "combat",
+		"name" : "",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 3,
+		"power" : 10,
+		"gainChance" : {},
+		"animation" : {
+			"hit" : [
+				"spell/trapS/trapSR"
+			]
+		},
+		"sounds" : {
+			"cast" : "SpikeAttack.wav"
+		},
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				"range" : "0",
+				"description" : "", //For validation
+				"cost" : 0, //For validation
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {
+				"power" : 10
+			},
+			"basic" : {
+				"power" : 15
+			},
+			"advanced" : {
+				"power" : 25
+			},
+			"expert" : {
+				"power" : 50
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"special" : true
+		},
+		"targetCondition" : {}
+	},
+	"traptrigger" : {
+		"targetType" : "CREATURE",
+		"type" : "combat",
+		"name" : "",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 3,
+		"power" : 10,
+		"gainChance" : {},
+		"animation" : {
+			"hit" : [
+				"spell/trap/trapR"
+			]
+		},
+		"sounds" : {
+			"cast" : "SpikeAttack2.wav"
+		},
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				"range" : "0",
+				"description" : "", //For validation
+				"cost" : 0, //For validation
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {
+				"power" : 10
+			},
+			"basic" : {
+				"power" : 15
+			},
+			"advanced" : {
+				"power" : 25
+			},
+			"expert" : {
+				"power" : 50
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"special" : true
+		},
+		"targetCondition" : {}
+	}
+}

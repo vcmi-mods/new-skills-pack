@@ -1,0 +1,86 @@
+{
+	"spikePit" : {
+		"targetType" : "NO_TARGET",
+		"type" : "combat",
+		"name" : "",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 1,
+		"power" : 0,
+		"gainChance" : {},
+
+		"sounds" : {
+			"cast" : "" // no casting sound, only obstacle placement sound
+		},
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"description" : "", //For validation
+				"cost" : 0, //For validation
+				"battleEffects" : {
+					"obstacle" : {
+						"type" : "core:obstacle",
+						"hidden" : true,
+						"passable" : true,
+						"trap" : false,
+						"triggerAbility" : "spiketrigger",
+						"removeOnTrigger" : true,
+						"patchCount" : 2,
+						"turnsRemaining" : -1,
+						"attacker" : {
+							"animation" : "spell/trapS/TrapSStand",
+							"appearAnimation" : "spell/trapS/trapS",
+							"appearSound" : "TrapSpawn.wav"
+						},
+						"defender" : {
+							"animation" : "spell/trapS/TrapSStand",
+							"appearAnimation" : "spell/trapS/trapS",
+							"appearSound" : "TrapSpawn.wav"
+						}
+					}
+				}
+			},
+			"none" : {
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : {
+						"patchCount" : 2
+					}
+				}
+			},
+			"basic" : {
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : {
+						"patchCount" : 4
+					}
+				}
+			},
+			"advanced" : {
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : {
+						"patchCount" : 6
+					}
+				}
+			},
+			"expert" : {
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : {
+						"patchCount" : 8
+					}
+				}
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"indifferent" : true
+		},
+		"targetCondition" : {}
+	}
+}

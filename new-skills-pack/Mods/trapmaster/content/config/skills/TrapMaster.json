@@ -1,0 +1,88 @@
+{
+	"trapmaster" : {
+		"name" : "Trap Master",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 1
+		},
+		"specialty" : [], // generic specialty not applicable
+		"basic" : {
+			"images" : {
+				"small" : "skills/TrapMaster/b-trapmaster-small",
+				"medium" : "skills/TrapMaster/b-trapmaster-medium",
+				"large" : "skills/TrapMaster/b-trapmaster-large",
+				"scenarioBonus" : "skills/TrapMaster/b-trapmaster-scenarioBonus"
+			},
+			"description" : "{Basic Trap Master}\n\nAt the start of combat, casts Spike Pit with spell power 2.",
+			"effects" : {
+				"mine" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.spikePit",
+					"val" : 2
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/TrapMaster/a-trapmaster-small",
+				"medium" : "skills/TrapMaster/a-trapmaster-medium",
+				"large" : "skills/TrapMaster/a-trapmaster-large",
+				"scenarioBonus" : "skills/TrapMaster/a-trapmaster-scenarioBonus"
+			},
+			"description" : "{Advanced Trap Master}\n\nAt the start of combat, casts Spike Pit and Quick Trap with spell power 5.",
+			"effects" : {
+				"mine" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.spikePit",
+					"val" : 5
+				},
+				"mine1" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.spikePit",
+					"val" : 5
+				},
+				"sand" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.quicktrap",
+					"val" : 5
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/TrapMaster/e-trapmaster-small",
+				"medium" : "skills/TrapMaster/e-trapmaster-medium",
+				"large" : "skills/TrapMaster/e-trapmaster-large",
+				"scenarioBonus" : "skills/TrapMaster/e-trapmaster-scenarioBonus"
+			},
+			"description" : "{Expert Trap Master}\n\nAt the start of combat, casts Spike Pit and Quick Trap with spell power 10.",
+			"effects" : {
+				"mine" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.spikePit",
+					"val" : 10
+				},
+				"mine1" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.spikePit",
+					"val" : 10
+				},
+				"mine2" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.spikePit",
+					"val" : 10
+				},
+				"sand" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.quicktrap",
+					"val" : 10
+				},
+				"sand1" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "spell.quicktrap",
+					"val" : 10
+				}
+			}
+		}
+	}
+}

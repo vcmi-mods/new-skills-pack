@@ -1,0 +1,29 @@
+{
+	"name" : "Trapmaster",
+	"description" : "Adds a new secondary skill: Trap Master. At the start of combat, it places spike pits and bear traps.",
+	"author" : "Dark Imagine",
+	"modType" : "Skills",
+	"version" : "1.0",
+	"russian" : {
+		"name" : "Навык: Мастер Ловушек",
+		"description" : "Добавляет новый навык - Мастер Ловушек, в начале боя создает ловушки с шипами и капканы",
+		"translations" : [
+			"translation/trapmaster/russian.json"
+		]
+	},
+	"czech" : {
+		"name" : "Mistr pastí",
+		"description" : "Přidává novou vedlejší dovednost – Mistr pastí. Na začátku boje vytváří jámy s bodci a medvědí pasti.",
+		"translations" : [
+			"translation/trapmaster/czech.json"
+		]
+	},
+	"skills" : [
+		"config/skills/TrapMaster.json"
+	],
+	"spells" : [
+		"config/spells/quicktrap.json",
+		"config/spells/spikepit.json",
+		"config/spells/spiketrigger.json"
+	]
+}
