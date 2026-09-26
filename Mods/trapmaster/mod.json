@@ -6,17 +6,11 @@
 	"version" : "1.0",
 	"russian" : {
 		"name" : "Навык: Мастер Ловушек",
-		"description" : "Добавляет новый навык - Мастер Ловушек, в начале боя создает ловушки с шипами и капканы",
-		"translations" : [
-			"translation/russian.json"
-		]
+		"description" : "Добавляет новый навык - Мастер Ловушек, в начале боя создает ловушки с шипами и капканы"
 	},
 	"czech" : {
 		"name" : "Mistr pastí",
-		"description" : "Přidává novou vedlejší dovednost – Mistr pastí. Na začátku boje vytváří jámy s bodci a medvědí pasti.",
-		"translations" : [
-			"translation/czech.json"
-		]
+		"description" : "Přidává novou vedlejší dovednost – Mistr pastí. Na začátku boje vytváří jámy s bodci a medvědí pasti."
 	},
 	"skills" : [
 		"config/skills/TrapMaster.json"
