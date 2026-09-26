@@ -81,5 +81,9 @@
 	"mod.omnimancy.name": "Omnimancie",
 	"mod.omnimancy.description": "Umožňuje sesílat kouzla všech škol magie s nižší cenou many a vyšší účinností:<br>•&nbsp;<b>Základní</b>: nižší cena kouzel<br>•&nbsp;<b>Lepší</b>: nižší cena a vyšší účinnost<br>•&nbsp;<b>Expertní</b>: minimální cena a maximální účinnost<br><br>•&nbsp;Nahrazuje magii ohně, vody, vzduchu a země<br>•&nbsp;Hrdinové, kteří tyto školy měli jako výchozí, nyní začínají s omnimancií<br><br>•&nbsp;V městech Soutoku univerzita nově nabízí: Vzdělávání, Inteligence, Kouzelnictví a Učenec",
 	"mod.trapmaster.name": "Mistr pastí",
-	"mod.trapmaster.description": "Přidává novou vedlejší dovednost – Mistr pastí. Na začátku boje vytváří jámy s bodci a medvědí pasti."
+	"mod.trapmaster.description": "Přidává novou vedlejší dovednost – Mistr pastí. Na začátku boje vytváří jámy s bodci a medvědí pasti.",
+	"skill.new-skills-pack.trapmaster.trapmaster.description.basic": "{Základní mistr pastí}\n\nNa začátku boje sesílá Jámu s bodci se silou kouzla 2.",
+	"skill.new-skills-pack.trapmaster.trapmaster.description.advanced": "{Lepší mistr pastí}\n\nNa začátku boje sesílá Jámu s bodci a Rychlou past se silou kouzla 5.",
+	"skill.new-skills-pack.trapmaster.trapmaster.description.expert": "{Expertní mistr pastí}\n\nNa začátku boje sesílá Jámu s bodci a Rychlou past se silou kouzla 10.",
+	"skill.new-skills-pack.trapmaster.trapmaster.name": "Mistr pastí"
 }
