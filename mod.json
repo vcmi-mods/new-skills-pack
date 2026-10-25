@@ -7,8 +7,8 @@
 	"contact" : "https://discord.gg/PDXDf8P8",
 	"changelog" : {
 		"1.0.8" : [
-			"Technical spells from Trapmaster skill now don't appear in spellbok (intended behaviour).",
-		],		
+			"Technical spells from Trapmaster skill now don't appear in spellbok (intended behaviour)."
+		],
 		"1.0.7" : [
 			"Added Czech translation by George King",
 			"Improved all descriptions"
