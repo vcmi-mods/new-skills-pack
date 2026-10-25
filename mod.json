@@ -2,10 +2,13 @@
 	"name" : "New Skills Pack",
 	"description" : "Adds 5 new secondary skills:<br>•&nbsp;<b>Anatomy</b> – chance to deal double damage<br>•&nbsp;<b>Fury</b> – increases number of enemies slain<br>•&nbsp;<b>Impact</b> – reduces enemy defense<br>•&nbsp;<b>Magic Fader</b> – blocks high-level spellcasting<br>•&nbsp;<b>Nimbleness</b> – lowers enemy attack through dodging<br><br>Each skill features unique animations, effects, and specialized heroes.",
 	"author" : "FallainBlack (Fury, Anatomy, Impact, Nimbleness), avatar (Magic fader)",
-	"version" : "1.0.7",
+	"version" : "1.0.8",
 	"modType" : "Skills",
 	"contact" : "https://discord.gg/PDXDf8P8",
 	"changelog" : {
+		"1.0.8" : [
+			"Technical spells from Trapmaster skill now don't appear in spellbok (intended behaviour).",
+		],		
 		"1.0.7" : [
 			"Added Czech translation by George King",
 			"Improved all descriptions"

@@ -19,5 +19,9 @@
 		"config/spells/quicktrap.json",
 		"config/spells/spikepit.json",
 		"config/spells/spiketrigger.json"
-	]
+	],
+	"polish" : {
+		"name" : "Mistrz pułapek",
+		"description" : "Dodaje nową umiejętność drugorzędną: Mistrz pułapek. Na początku walki rozstawia kolczaste pułapki i pułapki na niedźwiedzie."
+	}
 }

@@ -1,7 +1,7 @@
 {
 	"quicktrap" : {
 		"targetType" : "NO_TARGET",
-		"type" : "combat",
+		"type" : "ability",
 		"name" : "",
 		"school" : {
 			"air" : false,

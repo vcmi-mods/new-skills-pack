@@ -1,7 +1,7 @@
 {
 	"spiketrigger" : {
 		"targetType" : "CREATURE",
-		"type" : "combat",
+		"type" : "ability",
 		"name" : "",
 		"school" : {
 			"air" : false,
@@ -57,7 +57,7 @@
 	},
 	"traptrigger" : {
 		"targetType" : "CREATURE",
-		"type" : "combat",
+		"type" : "ability",
 		"name" : "",
 		"school" : {
 			"air" : false,
