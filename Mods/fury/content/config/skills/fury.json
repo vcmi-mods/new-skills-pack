@@ -11,8 +11,9 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"type" : "DESTRUCTION",
-					"subtype" : "destructionKillPercentage"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "destruction",
+					"addInfo" : { "killBy" : "percentage", "amount" : 0 }
 				}
 			}
 		},
