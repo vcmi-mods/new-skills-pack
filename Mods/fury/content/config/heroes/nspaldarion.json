@@ -41,7 +41,10 @@
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "destruction",
-					"addInfo" : { "killBy" : "percentage", "amount" : 0 },
+					"addInfo" : {
+						"killBy" : "percentage",
+						"amount" : 0
+					},
 					"val" : 0,
 					"valueType" : "ADDITIVE_VALUE",
 					"updater" : {

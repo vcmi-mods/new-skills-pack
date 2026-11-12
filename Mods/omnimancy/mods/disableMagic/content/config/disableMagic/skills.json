@@ -1,14 +1,22 @@
 {
 	"core:fireMagic" : {
-		"tags" : { "special" : true }
+		"tags" : {
+			"special" : true
+		}
 	},
 	"core:airMagic" : {
-		"tags" : { "special" : true }
+		"tags" : {
+			"special" : true
+		}
 	},
 	"core:waterMagic" : {
-		"tags" : { "special" : true }
+		"tags" : {
+			"special" : true
+		}
 	},
 	"core:earthMagic" : {
-		"tags" : { "special" : true }
+		"tags" : {
+			"special" : true
+		}
 	}
 }

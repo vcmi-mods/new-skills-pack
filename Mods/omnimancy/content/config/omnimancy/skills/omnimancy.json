@@ -6,7 +6,9 @@
 			"magic" : 6
 		},
 		"specialty" : [], // generic specialty not applicable
-		"tags" : { "spellSchool" : true },
+		"tags" : {
+			"spellSchool" : true
+		},
 		"basic" : {
 			"images" : {
 				"small" : "omnimancy/skills/omnimancyBasicSmall",

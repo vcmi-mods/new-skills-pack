@@ -13,7 +13,10 @@
 				"main" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "destruction",
-					"addInfo" : { "killBy" : "percentage", "amount" : 0 }
+					"addInfo" : {
+						"killBy" : "percentage",
+						"amount" : 0
+					}
 				}
 			}
 		},
