@@ -34,14 +34,12 @@
 						"attacker" : {
 							"animation" : "spell/trap/TrapStand",
 							"appearAnimation" : "spell/trap/trap",
-							"appearSound" : "TrapSpawn.wav",
-							"offsetX" : -24
+							"appearSound" : "TrapSpawn.wav"
 						},
 						"defender" : {
 							"animation" : "spell/trap/TrapStand",
 							"appearAnimation" : "spell/trap/trap",
-							"appearSound" : "TrapSpawn.wav",
-							"offsetX" : -24
+							"appearSound" : "TrapSpawn.wav"
 						}
 					}
 				}

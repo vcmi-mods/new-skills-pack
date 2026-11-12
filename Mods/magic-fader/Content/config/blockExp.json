@@ -40,13 +40,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"magicBlock" : {
-						"type" : "BLOCK_MAGIC_ABOVE",
-						"val" : 2,
-						"valueType" : "INDEPENDENT_MIN",
-						"propagator" : "HERO",
-						"duration" : "ONE_BATTLE"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"magicBlock" : {
+								"type" : "BLOCK_MAGIC_ABOVE",
+								"val" : 2,
+								"valueType" : "INDEPENDENT_MIN",
+								"propagator" : "HERO",
+								"duration" : "ONE_BATTLE"
+							}
+						}
 					}
 				}
 			},
